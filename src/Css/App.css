@@ -1,0 +1,50 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.app {
+
+    box-shadow: rgba(15, 126, 238,0.2)0px 8px 24px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 outo;
+
+}
+ .header {
+    background: rgb(44, 44, 44) ;
+    color:white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    position: static;
+
+ }
+
+ button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+ }
+ button:hover{
+    background-color: #ddd;
+}
+.editBin >button {
+    color: blue;
+
+}
